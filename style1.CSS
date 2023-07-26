@@ -1,0 +1,124 @@
+body{
+    background-color: skyblue;
+    
+    
+}
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'main main right right';
+    gap: 10px;
+    padding: 10px;
+    font-size: medium;
+    color: black;
+    display:flex;
+    /* float: right; */
+}
+.grid-container > div {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    text-align: center;
+    padding: 60px 78px;;
+    /* font-size: 30px; */
+  }
+
+.imgpng{
+    margin-top: 5%;
+    float: right;
+    width: 550px;
+    grid-area: right;
+    
+}
+
+.box{
+    
+}
+
+/* .box1 {
+    font-size: 50px;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    margin-left: 10px;
+
+}  */
+
+button{
+   
+    background-color: cornflowerblue;
+    border: none;
+    
+    width: 150px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 20px;
+    
+    float: left;
+
+    
+}
+/* 
+.box2{
+    color: lightslategray;
+    margin-left:60px;
+} */
+.main{
+    display: flex;
+}
+.list{
+    list-style: none;
+    display: flex;
+    margin-left: 600px;
+    
+}
+
+li{
+    margin-right: 40px;
+    justify-content: flex-end;
+}
+
+.signup{
+    margin-top: 10px;
+    margin-right: 50px;
+    border: none;
+    background-color: cornflowerblue;
+    padding: 9px;
+    border-radius: 10px;
+    color: white;
+}
+
+.logo{
+    margin-left: 100px;
+
+}
+
+.logo1{
+    margin-top: 2px;
+    display: flex;
+}
+
+.logo{
+    font-size: 20px;
+    display: flex;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.img7{
+    height: 30px;
+    width: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
