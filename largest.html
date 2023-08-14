@@ -1,0 +1,18 @@
+<script type="text/javascript">
+
+    let number = [' 45','34','88','78','90'];
+    let shortest = number[0];
+    function shortest(number){
+        
+        for (let i= 0; i <number.length;i++){
+            if (shortest<number[i]){
+                shortest=number[i];
+            }
+        }
+    }
+
+    shortest(number);
+    document.write("shortest num is :",shortest);
+
+
+</script>

@@ -1,0 +1,81 @@
+<!--switch statement - statement is used to select one of many blocks of code to be executed
+
+
+switch (Expression){
+    case constant : code;
+                    break;
+    case constant : code;
+                    break;
+    default: code;                
+}-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    
+    <h3> Enter your choice</h3>
+    <ul>
+        <li> Add</li>
+        <li> Sub</li>
+        <li> Mult</li>
+    </ul>
+
+    <br>
+    <from>
+        <input type="text" name="" id="choices">
+        <br>
+        <button onclick="myfun">click Me</button>
+    </from>
+    <script type="text/javascript">
+
+        function myfun(){
+            var choice = document.getElementById("choices value").value;
+            
+        switch (choice){
+            case "add" : var a= 10;
+                         var b= 20;
+                         var sum = a+b;
+                         document.write("addition of two number is" + sum);
+                         break;
+
+            case "sub" : var a= 10;
+                         var b= 20;
+                         var sub= a-b;
+                         document.write("substraction of two number is" + sub);
+                         break;
+
+            case "mult" : var a= 10;
+                         var b= 20;
+                         var multp = a * b;
+                         document.write("multiplication of two number is" + multp);
+                        break;
+
+            default:alert("not a valid input");
+                        
+            
+
+           }
+            
+
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
